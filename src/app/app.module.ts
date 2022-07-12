@@ -33,8 +33,8 @@ import { CallbackComponent } from './components/callback/callback.component';
     // Import the module into the application, with configuration
     AuthModule.forRoot(
       {
-       domain: 'dev-vicagent.eu.auth0.com',
-       clientId: 'pr99yrtN6F7RmrWLc8xtekXJBltQFI3c'
+       domain: 'yourauthdomain',
+       clientId: 'yourauthclientId'
      }
      )     ,
     
